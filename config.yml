@@ -1,0 +1,10 @@
+# Global settings for audio processing
+gpu_conversion: yes
+segment_size: 4000
+overlap: 99
+
+extract-vocal:
+  model: "MDX23C-InstVoc HQ"
+
+dereverb-vocal:
+  model: "MDX-Net: UVR-MDX-NET Karaoke 2"
